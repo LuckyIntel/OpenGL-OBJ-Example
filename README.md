@@ -7,3 +7,4 @@
 ### 1. Loading an OBJ file with more than an object causes the texture and/or color to apply on all objects.Planning to be fixed in V0.2
 ### 2. OBJLoader.hpp lacks of a triangulater function so loading an OBJ file that is not already triangulated will not work healthily.Planning to be fixed in V0.2
 ### 3. OBJLoader.hpp lacks of some faces.Planning to be fixed in V0.2
+### 4. OBJLoader.hpp parseFile function seems to have a problem that's causing every mesh in the model to stack in just one mesh.I also believe this causes texture and color problems.Priority to be fixed in the V0.2 before everything.(Other problems can be delayed to V0.3)
